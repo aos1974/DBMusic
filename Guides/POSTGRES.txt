@@ -21,10 +21,19 @@ sudo -u postgres psql -U postgres -d template1 -c "ALTER USER postgres PASSWORD 
 Официальная документация
 https://www.postgresql.org/docs/current/app-psql.html
 
+Материалы к ДЗ2
+https://www.postgresql.org/docs/12/sql-createtable.html
+https://www.postgresql.org/docs/12/datatype.html
+https://www.postgresql.org/docs/current/ddl-constraints.html
+
 DBeaver
 https://github.com/dbeaver/dbeaver/releases
 
 ДОПОЛНИТЕЛЬНЫЕ МАТЕРИАЛЫ
 Установка PostgreSQL & 1C
 https://www.dmosk.ru/miniinstruktions.php?mini=1c-ubuntu#postgresql-pro
+
+VSCODE
+PostgreSQL
+
 

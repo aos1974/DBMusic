@@ -1,0 +1,3 @@
+CREATE DATABASE musicdb;
+CREATE USER musicDBadm WITH PASSWORD 'mu$ic';
+ALTER DATABASE musicdb OWNER TO musicdbadm;
