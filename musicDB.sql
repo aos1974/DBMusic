@@ -1,11 +1,11 @@
 CREATE TABLE IF NOT EXISTS genres (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(60) NOT NULL
+    name VARCHAR(60) NOT NULL UNIQUE
 );
 
 CREATE TABLE IF NOT EXISTS singer_list (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(60) NOT NULL,
+    name VARCHAR(60) NOT NULL UNIQUE,
     gender VARCHAR(1) NOT NULL,
     birthdate DATE,
     genres_id INTEGER REFERENCES genres(id)
