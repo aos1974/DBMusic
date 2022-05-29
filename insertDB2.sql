@@ -16,13 +16,14 @@ VALUES
 (6, 'Kanye Omari West', 'M', '08/07/1966'),
 (7, 'Kylie Ann Minogue', 'F', '28/05/1968'),
 (8, 'Robbie Williams', 'M', '13/02/1974'),
-(9, 'Ritchie Blackmore', 'M', '14/04/1945');
+(9, 'Ritchie Blackmore', 'M', '14/04/1945'),
+(10, 'Antonio Lucio Vivaldi', 'M', '04/03/1678');
 
 -- INSERTING GENRE_LIST (link Singers with genres) --
 
 INSERT INTO genre_list
 VALUES
-(1, 2), (2, 2), (3, 7), (4, 2), (5, 2), (6, 8), (7, 2), (8, 3), (9, 3), (9, 5), (4, 6);
+(1, 2), (2, 2), (3, 7), (4, 2), (5, 2), (6, 8), (7, 2), (8, 3), (9, 3), (9, 5), (4, 6), (10, 1);
 
 -- INSERTING ALBUMS --
 
@@ -37,13 +38,14 @@ VALUES
 (10, 'In The Wee Small Hours', '01/04/1955'),
 (11, 'Live at the Regal', '01/01/1965'),
 (12, 'Thriller', '30/11/1982'), (13, 'Bad', '30/08/1987'),
-(14, 'Greatest Hits Remixed', '10/10/2005');
+(14, 'Greatest Hits Remixed', '10/10/2005'),
+(15, 'The Four Seasons', '01/01/1720');
 
 -- INSERTING AUTHOR_LIST (Link Singers with albums) --
 
 INSERT INTO author_list
 VALUES
-(9, 1), (9, 2), (8, 3), (8, 4), (7, 5), (6, 6), (6, 7), (5, 8), (4, 9), (3, 11), (2, 12), (2, 13), (1, 14);
+(9, 1), (9, 2), (8, 3), (8, 4), (7, 5), (6, 6), (6, 7), (5, 8), (4, 9), (3, 11), (2, 12), (2, 13), (1, 14), (10, 15);
 
 -- INSERTING SONGS --
 
@@ -58,7 +60,8 @@ VALUES
 (12, 'Wake Up Mr. West', 41, 6), (13, 'Everything We Need', 168, 7),
 (14, 'Nothing To Lose', 204, 5), (15, 'Enjoy Yourself', 226, 5),
 (16, 'Shit On The Radio', 173, 3), (17, 'Not Like The Others', 256, 4),
-(18, 'Speed King', 360, 1), (19, 'Shadow Of The Moon', 307, 2), (20, 'Magical World', 241, 2);
+(18, 'Speed King', 360, 1), (19, 'Shadow Of The Moon', 307, 2), (20, 'Magical World', 241, 2),
+(21, 'Winter', 360, 15), (22, 'Spring', 460, 15), (23, 'Summer', 400, 15), (24, 'Autumn', 365, 15);
 
 -- INSERTING COLLECTIONS --
 
@@ -71,7 +74,8 @@ VALUES
 (5, 'RAP HITS', '28/05/2022'),
 (6, '80-90xx Music HITS', '28/05/2022'),
 (7, '60-70xx Music HITS', '28/05/2022'),
-(8, '40-50xx Misic HITS', '28/05/2022');
+(8, '40-50xx Misic HITS', '28/05/2022'),
+(9, 'Classic HITS', '29/05/2022');
 
 -- INSERTING COLLECTION_LIST (Link Songs with Music collections) --
 
@@ -84,5 +88,6 @@ VALUES
 (5, 12), (5, 13),
 (6, 15), (6, 10), (6, 11), (6, 2), (6, 3), (6, 4),
 (7, 18),
-(8, 1), (8, 5), (8, 9);
+(8, 1), (8, 5), (8, 9),
+(9, 21), (9, 22), (9, 23), (9, 24);
 
